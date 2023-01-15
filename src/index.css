@@ -71,3 +71,63 @@ a{
 a:hover{
   color: rgb(40, 85, 234);
 }
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+  body h1{
+    font-size: 2rem;
+  }
+  body h2{
+    font-size: 1.5rem;
+  }
+  input{
+    width: 50%;
+  }
+  button{
+    font-size: 1rem;
+  }
+  a{
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:767px){
+  body h1{
+    font-size: 1.5rem;
+  }
+  body h2{
+    font-size: 1rem;
+  }
+  input{
+    width: 70%;
+  }
+  button{
+    font-size: 0.8rem;
+  }
+  a{
+    font-size: 1rem;
+  }
+}
+@media (max-width:450px){
+  body h1{
+    font-size: 1.2rem;
+  }
+  body h2{
+    font-size: 0.8rem;
+  }
+  input{
+    width: 80%;
+  }
+  button{
+    font-size: 0.6rem;
+  }
+  a{
+    font-size: 0.8rem;
+  }
+}
